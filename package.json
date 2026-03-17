@@ -1,0 +1,18 @@
+{
+  "name": "meet-ai-home",
+  "version": "1.0.0",
+  "description": "Meet AI Home — 展示热门AI项目与个人AI创作",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "AI",
+    "portfolio",
+    "blog"
+  ],
+  "author": "Meet AI"
+}
