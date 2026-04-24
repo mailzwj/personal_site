@@ -114,6 +114,11 @@
   align-items: start;
 }
 
+.detail-layout .detail-content {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 /* Markdown body */
 .markdown-body {
   color: var(--text-secondary);
